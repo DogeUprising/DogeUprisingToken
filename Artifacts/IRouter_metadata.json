@@ -1,0 +1,103 @@
+{
+	"compiler": {
+		"version": "0.7.2+commit.51b20bc0"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user_adr",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "__buy_coin",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "referral_adr",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "user_adr",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "token_adr",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "is_v2",
+						"type": "bool"
+					}
+				],
+				"name": "__safe_check",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"HoneyChecker.sol": "IRouter"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"HoneyChecker.sol": {
+			"keccak256": "0x044d50398987b286182f6c26f24808d01a786696866e58d8499f326c9308e6cc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://238263f723c902816022a17f50874b2514c024444d4b878e0a0d916df24e8b3a",
+				"dweb:/ipfs/QmZtZUPu7RBcQveTLAvXR49hfjwXVrrZJLtgxsmWfH9gUZ"
+			]
+		}
+	},
+	"version": 1
+}
